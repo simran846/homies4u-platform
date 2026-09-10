@@ -10,8 +10,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static assets from public
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve frontend static assets from ../frontend
+const FRONTEND_DIR = path.join(__dirname, '..', 'frontend');
+app.use(express.static(FRONTEND_DIR));
 
 const DATA_DIR = path.join(__dirname, 'data');
 const ACCOMMODATIONS_FILE = path.join(DATA_DIR, 'accommodations.json');
@@ -201,13 +202,13 @@ app.get('/api/stats', (req, res) => {
 
 // Fallback for SPA routing
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(FRONTEND_DIR, 'index.html'));
 });
 
 // Start Server
 app.listen(PORT, () => {
   console.log(`===================================================`);
-  console.log(`🚀 Homies4U Platform Server is running live on:`);
+  console.log(`🚀 Homies4U Platform Backend Server running on:`);
   console.log(`👉 http://localhost:${PORT}`);
   console.log(`📧 Contact Email: sg9tradingplatform@gmail.com`);
   console.log(`📍 Accommodations Location set to: NA`);

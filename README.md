@@ -6,16 +6,44 @@ A complete end-to-end web platform for discovering, filtering, and booking verif
 
 ## ⚡ Quick Start
 
-1. Open your terminal in this directory:
-   ```bash
-   cd C:\Users\USER\.gemini\antigravity-ide\scratch\homies4u-platform
-   ```
-2. Start the application:
-   ```bash
-   npm start
-   ```
-3. Open your browser at:
-   **[http://localhost:5000](http://localhost:5000)**
+### 1. Run the Entire Project (Backend + Frontend)
+```bash
+cd homies4u-platform
+npm start
+```
+Open **[http://localhost:5000](http://localhost:5000)** in your browser.
+
+---
+
+## 📁 Project Structure (Frontend & Backend Separated)
+
+```
+homies4u-platform/
+│
+├── 🎨 frontend/                <-- All Frontend UI, Styles & Assets
+│   ├── css/
+│   │   └── style.css          <-- Design system, responsive layout & styling
+│   ├── js/
+│   │   └── app.js             <-- Client interactive logic, search & API calls
+│   ├── images/                <-- High-resolution AI generated house images
+│   │   ├── deluxe_studio.jpg
+│   │   ├── twin_suite.jpg
+│   │   ├── house_exterior.jpg
+│   │   └── luxury_suite.jpg
+│   └── index.html             <-- Master landing page HTML5
+│
+├── ⚙️ backend/                 <-- All Backend Server, APIs & Database
+│   ├── data/                  <-- JSON Database Storage
+│   │   ├── accommodations.json <-- Listings with AI images & Location: NA
+│   │   ├── bookings.json       <-- Saved room reservations & visits
+│   │   └── inquiries.json      <-- Contact messages (sg9tradingplatform@gmail.com)
+│   ├── server.js              <-- Express.js REST API & static server
+│   └── package.json           <-- Backend dependencies (Express, CORS)
+│
+├── package.json               <-- Root configuration & launch scripts
+├── .gitignore                 <-- Git ignore rules
+└── README.md                  <-- Project documentation
+```
 
 ---
 
@@ -33,24 +61,3 @@ A complete end-to-end web platform for discovering, filtering, and booking verif
 - **Booking & Visit Scheduling Engine**: Book room visits with live backend persistence (`/api/bookings`).
 - **Live Leads Viewer**: Accessible from the top bar to inspect all incoming reservations and contact messages in real time.
 - **Dynamic Search & Filtering**: Filter by category, resident gender (Boys, Girls, Co-ed), and maximum budget.
-
----
-
-## 📁 Directory Structure
-
-```
-homies4u-platform/
-├── data/
-│   ├── accommodations.json   # Property listings with AI imagery & NA location
-│   ├── bookings.json         # Real-time bookings storage
-│   └── inquiries.json        # Contact submissions for sg9tradingplatform@gmail.com
-├── public/
-│   ├── css/
-│   │   └── style.css         # Modern design system & styling
-│   ├── js/
-│   │   └── app.js            # Client-side reactivity & API integration
-│   ├── images/               # High-res AI house & suite images
-│   └── index.html            # Main landing page
-├── server.js                 # Express REST backend
-└── package.json
-```
