@@ -1,0 +1,249 @@
+[
+  {
+    "id": "h4u-001",
+    "name": "Homies Grand Villa & Residency",
+    "type": "Luxury Studio",
+    "sharing": "Private Single",
+    "gender": "Co-ed",
+    "price": 14500,
+    "originalPrice": 16500,
+    "deposit": 10000,
+    "location": "NA",
+    "distance": "Direct Campus Access (NA)",
+    "rating": 4.9,
+    "reviewsCount": 128,
+    "image": "/images/house_exterior.jpg",
+    "gallery": [
+      "/images/house_exterior.jpg",
+      "/images/deluxe_studio.jpg",
+      "/images/luxury_suite.jpg"
+    ],
+    "featured": true,
+    "popular": true,
+    "badge": "Top Rated",
+    "amenities": [
+      "High-speed 500Mbps WiFi",
+      "Air Conditioning (AC)",
+      "Daily Chef-Cooked Meals (4x)",
+      "Biometric 24/7 Security & SOS",
+      "Housekeeping & Laundry",
+      "Attached Private Balcony",
+      "Gaming Lounge & Gym",
+      "100% Power Backup"
+    ],
+    "description": "Experience modern co-living at its finest in Homies Grand Villa. Featuring ultra-contemporary architecture, private attached balconies, soundproof study corners, high-speed fiber internet, and 4-tier biometric security.",
+    "roomDetails": {
+      "bed": "1 Queen Ergonomic Bed",
+      "bathroom": "Attached Western Ensuite with Geyser",
+      "balcony": "Private Skyline View",
+      "workspace": "Dedicated Executive Desk & Lumbar Chair"
+    },
+    "availableBeds": 3,
+    "isAvailable": true
+  },
+  {
+    "id": "h4u-002",
+    "name": "Homies Executive Tech Loft",
+    "type": "Single Studio",
+    "sharing": "Private Single",
+    "gender": "Boys",
+    "price": 13000,
+    "originalPrice": 15000,
+    "deposit": 9000,
+    "location": "NA",
+    "distance": "Near University Corridor (NA)",
+    "rating": 4.85,
+    "reviewsCount": 94,
+    "image": "/images/deluxe_studio.jpg",
+    "gallery": [
+      "/images/deluxe_studio.jpg",
+      "/images/luxury_suite.jpg",
+      "/images/house_exterior.jpg"
+    ],
+    "featured": true,
+    "popular": true,
+    "badge": "Popular Choice",
+    "amenities": [
+      "Dedicated Study Station",
+      "Smart LED Ambient Lighting",
+      "Daily Healthy Buffet",
+      "High-speed WiFi",
+      "Mini Refrigerator",
+      "CCTV & Biometric Access",
+      "Weekly Linen Change",
+      "EV Charging Point"
+    ],
+    "description": "Designed for ambitious students and tech professionals. Features an integrated workstation, ambient mood lighting, high-speed fiber internet, and wholesome chef meals.",
+    "roomDetails": {
+      "bed": "1 Single Cozy Memory Foam Bed",
+      "bathroom": "Private Ensuite with Solar Heating",
+      "balcony": "Open City Balcony",
+      "workspace": "Wide Desk with Monitor Mount & USB Hub"
+    },
+    "availableBeds": 2,
+    "isAvailable": true
+  },
+  {
+    "id": "h4u-003",
+    "name": "Homies Harmony Twin Residency",
+    "type": "Twin Sharing Suite",
+    "sharing": "Twin Sharing",
+    "gender": "Co-ed",
+    "price": 8500,
+    "originalPrice": 10000,
+    "deposit": 6000,
+    "location": "NA",
+    "distance": "Central Student Hub (NA)",
+    "rating": 4.8,
+    "reviewsCount": 156,
+    "image": "/images/twin_suite.jpg",
+    "gallery": [
+      "/images/twin_suite.jpg",
+      "/images/house_exterior.jpg",
+      "/images/deluxe_studio.jpg"
+    ],
+    "featured": true,
+    "popular": true,
+    "badge": "Best Value",
+    "amenities": [
+      "Dual Ergonomic Study Desks",
+      "Individual Wardrobes & Locks",
+      "3-Times Nutritious Food",
+      "AC & High-Speed WiFi",
+      "Indoor Sports & TT Arena",
+      "Professional Housekeeping",
+      "Doctor on Call",
+      "24/7 RO Purified Water"
+    ],
+    "description": "Spacious, well-ventilated twin-sharing room with private dedicated study workstations for both occupants, individual storage closets, and vibrant community vibe.",
+    "roomDetails": {
+      "bed": "2 Independent Single Orthopedic Beds",
+      "bathroom": "Spacious Attached Bathroom with Hot Water",
+      "balcony": "Garden Facing Window Balcony",
+      "workspace": "Dual Workstations with Mesh Ergonomic Chairs"
+    },
+    "availableBeds": 4,
+    "isAvailable": true
+  },
+  {
+    "id": "h4u-004",
+    "name": "Homies Skyline Premium Suite",
+    "type": "Luxury Master Suite",
+    "sharing": "Private Single",
+    "gender": "Girls",
+    "price": 16000,
+    "originalPrice": 18500,
+    "deposit": 12000,
+    "location": "NA",
+    "distance": "Campus Green Belt (NA)",
+    "rating": 4.95,
+    "reviewsCount": 89,
+    "image": "/images/luxury_suite.jpg",
+    "gallery": [
+      "/images/luxury_suite.jpg",
+      "/images/deluxe_studio.jpg",
+      "/images/house_exterior.jpg"
+    ],
+    "featured": true,
+    "popular": true,
+    "badge": "Ultra Luxury",
+    "amenities": [
+      "Lush Private Terrace Balcony",
+      "Developer Coding Rig Desk",
+      "Smart TV & Netflix Lounge",
+      "Daily Chef Special Menu",
+      "In-room Coffee Station",
+      "24/7 Female Warden & Guard",
+      "Yoga & Wellness Zone",
+      "Express Laundry Service"
+    ],
+    "description": "The pinnacle of comfortable student living with luxury acoustic wooden accents, panoramic city balcony, private coffee bar, and bespoke home-style dining.",
+    "roomDetails": {
+      "bed": "1 King Size Plush Comfort Bed",
+      "bathroom": "Luxury Designer Bathroom with Rainfall Shower",
+      "balcony": "Private Terrace with Lounge Seating",
+      "workspace": "Developer Desk with Ultrawide Monitor Setup"
+    },
+    "availableBeds": 1,
+    "isAvailable": true
+  },
+  {
+    "id": "h4u-005",
+    "name": "Homies Scholars Twin Habitat",
+    "type": "Twin Sharing Room",
+    "sharing": "Twin Sharing",
+    "gender": "Boys",
+    "price": 7999,
+    "originalPrice": 9500,
+    "deposit": 5000,
+    "location": "NA",
+    "distance": "Walking distance to metro (NA)",
+    "rating": 4.75,
+    "reviewsCount": 112,
+    "image": "/images/twin_suite.jpg",
+    "gallery": [
+      "/images/twin_suite.jpg",
+      "/images/deluxe_studio.jpg"
+    ],
+    "featured": false,
+    "popular": true,
+    "badge": "Budget Friendly",
+    "amenities": [
+      "High Speed Wi-Fi 300 Mbps",
+      "Unlimited 3-Time Buffet",
+      "Personal Study Tables",
+      "RO Drinking Water",
+      "Biometric Check-in",
+      "Power Backup & AC",
+      "Daily Room Cleaning"
+    ],
+    "description": "Affordable yet ultra-modern shared living tailored for focused study and relaxed community living.",
+    "roomDetails": {
+      "bed": "2 Single Beds with Spring Mattresses",
+      "bathroom": "Attached Clean Bathroom",
+      "balcony": "Street View Balcony",
+      "workspace": "Dual Study Desks with Soft Board"
+    },
+    "availableBeds": 5,
+    "isAvailable": true
+  },
+  {
+    "id": "h4u-006",
+    "name": "Homies Serene Studio Villa",
+    "type": "Deluxe Studio",
+    "sharing": "Private Single",
+    "gender": "Girls",
+    "price": 13999,
+    "originalPrice": 15500,
+    "deposit": 10000,
+    "location": "NA",
+    "distance": "Peaceful Residential Sector (NA)",
+    "rating": 4.9,
+    "reviewsCount": 78,
+    "image": "/images/deluxe_studio.jpg",
+    "gallery": [
+      "/images/deluxe_studio.jpg",
+      "/images/house_exterior.jpg"
+    ],
+    "featured": false,
+    "popular": true,
+    "badge": "Quiet & Peaceful",
+    "amenities": [
+      "Soundproof Study Space",
+      "Gourmet Meal Options",
+      "24/7 Security Patrol & SOS",
+      "Inverter & AC Facility",
+      "High-speed Optical Fiber",
+      "Automated Laundry Access"
+    ],
+    "description": "A tranquil haven for students preparing for exams or working remotely, equipped with noise insulation and modern amenities.",
+    "roomDetails": {
+      "bed": "1 Queen Size Bed",
+      "bathroom": "Modern Attached Bathroom",
+      "balcony": "Private Window Nook",
+      "workspace": "Ergonomic Workstation"
+    },
+    "availableBeds": 2,
+    "isAvailable": true
+  }
+]

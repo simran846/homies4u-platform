@@ -1,0 +1,30 @@
+[
+  {
+    "id": "BK-MTVKUT6L",
+    "accommodationId": "general",
+    "accommodationName": "Homies General Preference",
+    "fullName": "Test User",
+    "email": "testuser@gmail.com",
+    "phone": "+91 9999988888",
+    "checkInDate": "2026-09-10",
+    "sharingPreference": "Private Single",
+    "message": "",
+    "status": "Confirmed & Scheduled",
+    "createdAt": "2026-09-10T13:42:59.134Z",
+    "routedTo": "sg9tradingplatform@gmail.com"
+  },
+  {
+    "id": "BK-MTVKMCDO",
+    "accommodationId": "h4u-001",
+    "accommodationName": "Homies Grand Villa",
+    "fullName": "Aryan Gupta",
+    "email": "aryan@example.com",
+    "phone": "+91 9876543210",
+    "checkInDate": "2026-09-15",
+    "sharingPreference": "Private Single",
+    "message": "Interested in single studio room",
+    "status": "Confirmed & Scheduled",
+    "createdAt": "2026-09-10T13:36:24.108Z",
+    "routedTo": "sg9tradingplatform@gmail.com"
+  }
+]

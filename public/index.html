@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homies4U - Modern Student & Co-Living Spaces | 100% Verified Stays</title>
+  <meta name="description" content="Discover premium, fully-furnished student hostels and co-living residences with Homies4U. Zero brokerage, 4-tier security, chef-curated meals, and high-speed fiber WiFi." />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="top-bar-badge">NEW</span>
+        <span>Premium Co-living & Student Accommodations Available • 0% Brokerage</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="mailto:sg9tradingplatform@gmail.com" class="top-bar-email">
+          <span>✉️</span> sg9tradingplatform@gmail.com
+        </a>
+        <button onclick="openAdminModal()" style="background: rgba(255,255,255,0.15); border: none; color: #fff; padding: 2px 10px; border-radius: 4px; font-size: 0.75rem; cursor: pointer; font-weight: 600;">
+          📊 Leads Viewer
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navbar -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="brand-logo">
+        <div class="logo-icon">H</div>
+        <span>Homies4u<span class="dot">.</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#accommodations" class="nav-link">Accommodations</a></li>
+          <li><a href="#perks" class="nav-link">Safety & Perks</a></li>
+          <li><a href="#why-us" class="nav-link">Why Homies4U</a></li>
+          <li><a href="#faqs" class="nav-link">FAQs</a></li>
+          <li><a href="#about-us" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary" onclick="openBookingModal('general')">
+          <span>📅</span> Schedule Visit
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span>✨</span> Next-Gen Student Living & Co-Living
+          </div>
+          <h1 class="hero-title">
+            Find Your <span class="highlight">Second Home</span> With Zero Hassle.
+          </h1>
+          <p class="hero-subtitle">
+            Experience fully-managed student housing, private studio lofts, and vibrant shared residences with biometric security, chef meals, and ultra-fast Wi-Fi.
+          </p>
+
+          <!-- Search & Filter Card -->
+          <div class="search-card">
+            <div class="search-inputs">
+              <div class="search-field">
+                <label for="heroSearchInput">Search Stay</label>
+                <input type="text" id="heroSearchInput" placeholder="e.g. Studio, Villa, Twin..." />
+              </div>
+
+              <div class="search-field">
+                <label for="heroGenderSelect">Resident Type</label>
+                <select id="heroGenderSelect">
+                  <option value="all">All / Any Gender</option>
+                  <option value="Co-ed">Co-ed</option>
+                  <option value="Boys">Boys Only</option>
+                  <option value="Girls">Girls Only</option>
+                </select>
+              </div>
+
+              <div class="search-field">
+                <label for="heroBudgetSelect">Max Budget</label>
+                <select id="heroBudgetSelect">
+                  <option value="all">Any Budget</option>
+                  <option value="9000">Under ₹9,000</option>
+                  <option value="14000">Under ₹14,000</option>
+                  <option value="17000">Under ₹17,000</option>
+                </select>
+              </div>
+
+              <button class="btn btn-primary" id="heroSearchBtn" style="height: 48px; align-self: flex-end;">
+                <span>🔍</span> Find Stay
+              </button>
+            </div>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="trust-bar">
+            <div class="trust-item">
+              <span class="num" id="statAvailableBeds">150+ Beds</span>
+              <span class="label">Ready for<br/>Move-in</span>
+            </div>
+            <div class="trust-item">
+              <span class="num">100%</span>
+              <span class="label">Verified &<br/>Zero Brokerage</span>
+            </div>
+            <div class="trust-item">
+              <span class="num">4.9 ★</span>
+              <span class="label">Community<br/>Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase with AI House Imagery -->
+        <div class="hero-visual">
+          <div class="hero-floating-card top-right">
+            <div class="card-icon-badge">🛡️</div>
+            <div class="floating-text">
+              <h4>24/7 SOS & Biometric</h4>
+              <p>Certified Safe Living</p>
+            </div>
+          </div>
+
+          <div class="hero-image-frame">
+            <img src="/images/house_exterior.jpg" alt="Homies Luxury Student Residence" />
+          </div>
+
+          <div class="hero-floating-card bottom-left">
+            <div class="card-icon-badge green">⚡</div>
+            <div class="floating-text">
+              <h4>500 Mbps Optical WiFi</h4>
+              <p>Designed for Study & Work</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Accommodations Section (AI Houses & Location: NA) -->
+  <section class="popular-section" id="accommodations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Explore Residences</span>
+        <h2 class="section-title">Popular Accommodations</h2>
+        <p class="section-desc">
+          Handpicked premium stays engineered for comfort, productivity, and an unbeatable community experience.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All Accommodations</button>
+        <button class="filter-tab" data-filter="single">Private Single Studios</button>
+        <button class="filter-tab" data-filter="twin">Twin Sharing Suites</button>
+        <button class="filter-tab" data-filter="luxury">Luxury Residences</button>
+      </div>
+
+      <!-- Accommodations Grid rendered dynamically by app.js -->
+      <div class="accommodations-grid" id="accommodationsGrid">
+        <!-- Rendered by client JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Perks & Safety Section -->
+  <section class="perks-section" id="perks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Homies Advantage</span>
+        <h2 class="section-title">Everything You Need for a Seamless Stay</h2>
+        <p class="section-desc">
+          No hidden fees, no tedious landlord negotiations. Just unpack your bags and feel right at home.
+        </p>
+      </div>
+
+      <div class="perks-grid">
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🚫</div>
+          <h3>0% Brokerage Always</h3>
+          <p>Book directly through Homies4U with full transparency and zero broker commissions or hidden lease charges.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🍲</div>
+          <h3>Chef-Cooked Meals</h3>
+          <p>Nutritious, hygienic 4-time buffet meals prepared fresh daily with rotating seasonal menus and weekend specials.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🔐</div>
+          <h3>Biometric & SOS Safety</h3>
+          <p>Smart facial/fingerprint access, continuous CCTV perimeter surveillance, and 24/7 on-site emergency support.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🚀</div>
+          <h3>Dedicated Fiber Wi-Fi</h3>
+          <p>Blazing fast optical fiber broadband with power backup so you never miss a lecture, coding sprint, or gaming session.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🧹</div>
+          <h3>Daily Housekeeping</h3>
+          <p>Professional cleaning staff to keep your room, washroom, and common study lounges spotless every single day.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap">🎮</div>
+          <h3>Vibrant Community Lounges</h3>
+          <p>Chill zones, gaming arenas, curated mixer events, and networking spaces with fellow ambitious students.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Homies4U Section -->
+  <section class="why-section" id="why-us" style="background: #FFFFFF;">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%); border-radius: 28px; padding: 60px 48px; color: #FFFFFF; box-shadow: var(--shadow-xl);">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+          <span style="background: rgba(255,90,54,0.2); color: #FF8F73; padding: 4px 16px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem; display: inline-block; margin-bottom: 16px;">
+            HASSLE-FREE LIVING
+          </span>
+          <h2 style="font-size: 2.5rem; color: #FFFFFF; margin-bottom: 20px;">
+            Why Thousands of Students Choose Homies4U
+          </h2>
+          <p style="font-size: 1.1rem; color: #94A3B8; margin-bottom: 40px; line-height: 1.7;">
+            We have modernized the hostel experience by combining hotel-standard hospitality, rigorous security protocols, and student-friendly flexible policies.
+          </p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; text-align: left;">
+            <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+              <div style="font-size: 1.8rem; font-weight: 800; color: #FF5A36; margin-bottom: 4px;">100%</div>
+              <div style="font-weight: 700; font-size: 1rem; color: #fff; margin-bottom: 4px;">Verified Stays</div>
+              <p style="font-size: 0.85rem; color: #94A3B8;">Every property is physically vetted and inspected.</p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+              <div style="font-size: 1.8rem; font-weight: 800; color: #10B981; margin-bottom: 4px;">₹0</div>
+              <div style="font-weight: 700; font-size: 1rem; color: #fff; margin-bottom: 4px;">Brokerage Fee</div>
+              <p style="font-size: 0.85rem; color: #94A3B8;">Save money with direct tenant-friendly agreements.</p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+              <div style="font-size: 1.8rem; font-weight: 800; color: #6366F1; margin-bottom: 4px;">24 / 7</div>
+              <div style="font-weight: 700; font-size: 1rem; color: #fff; margin-bottom: 4px;">Warden & Security</div>
+              <p style="font-size: 0.85rem; color: #94A3B8;">Emergency medical assistance & round-the-clock safety.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faqs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Quick answers about bookings, food plans, security, and moving in.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>How do I book a visit or reserve a room?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>You can click the "Schedule Visit" or "Book Visit" button on any listing card. Choose your preferred check-in date and contact information, and our dedicated team will instantly schedule your visit or reserve your room.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are meals included in the monthly rent?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! All our popular accommodations include 3 to 4 daily hygienic meals (Breakfast, Lunch, Evening Snacks, and Dinner) cooked fresh in on-site clean kitchens.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is there any brokerage or hidden maintenance fee?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely none. Homies4U guarantees 0% brokerage. The monthly tariff covers accommodation, utilities, high-speed WiFi, housekeeping, and meals.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How can I reach support regarding bookings or inquiries?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>You can reach our centralized support directly at <strong>sg9tradingplatform@gmail.com</strong> or use the message form in our Contact section. All inquiries are responded to within 2-4 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section (POSITIONED AT DOWN / RIGHT BEFORE CONTACT US) -->
+  <section class="about-section" id="about-us">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-image-wrapper">
+            <img src="/images/luxury_suite.jpg" alt="About Homies4U Student Living" />
+          </div>
+          <div class="about-stat-overlay">
+            <h3>12,500+</h3>
+            <p>Happy Residents</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">About Homies4U</span>
+          <h2>Redefining Student & Co-Living Spaces</h2>
+          <p class="lead">
+            Homies4U was founded on a simple premise: leaving home for university or work shouldn't mean compromising on comfort, safety, or community.
+          </p>
+          <p class="text">
+            We provide fully-equipped, modern residences designed specifically for the needs of students and young professionals. From high-speed fiber internet for study marathons to nutritious home-style meals and rigorous 4-tier security protocols, Homies4U is your trusted second home.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point-item">
+              <span class="point-dot"></span> 100% Physically Verified Spaces
+            </div>
+            <div class="about-point-item">
+              <span class="point-dot"></span> Flexible Monthly Terms
+            </div>
+            <div class="about-point-item">
+              <span class="point-dot"></span> Biometric Access & Safety SOS
+            </div>
+            <div class="about-point-item">
+              <span class="point-dot"></span> Direct Support & 0 Brokerage
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
+            <button class="btn btn-primary" onclick="openBookingModal('general')">Schedule a Visit</button>
+            <a href="#contact" class="btn btn-outline">Reach Our Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section (CUSTOMIZED: NO OFFICE LOCATION, NO PHONE, NO BULK, EMAIL: sg9tradingplatform@gmail.com) -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" style="background: rgba(255,90,54,0.2); color: #FF8F73;">Get In Touch</span>
+        <h2 class="section-title">Contact Our Homies Team</h2>
+        <p class="section-desc">Have questions about accommodations, availability, or check-in? Reach out directly.</p>
+      </div>
+
+      <div class="contact-box">
+        <!-- Contact Channel Sidebar (Exclusive Email Channel) -->
+        <div class="contact-sidebar">
+          <div class="contact-info-top">
+            <h3>Direct Communication</h3>
+            <p>We believe in fast, transparent correspondence. Connect directly with our accommodation coordinators via email.</p>
+
+            <!-- Dedicated Email Channel Card -->
+            <div class="contact-channel-card">
+              <div class="channel-header">
+                <div class="channel-icon">✉️</div>
+                <div class="channel-title">Official Email Support</div>
+              </div>
+              <span class="channel-email-text" id="officialEmailText">sg9tradingplatform@gmail.com</span>
+              <div class="channel-actions">
+                <button class="copy-badge-btn" onclick="copyEmailAddress()">📋 Copy Email</button>
+                <a href="mailto:sg9tradingplatform@gmail.com" class="copy-badge-btn" style="text-decoration: none;">↗ Send Mail</a>
+              </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); padding: 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+              <div style="font-size: 0.85rem; font-weight: 700; color: #10B981; margin-bottom: 4px;">⚡ Rapid Turnaround Guarantee</div>
+              <p style="font-size: 0.8rem; color: #94A3B8; margin: 0;">Our accommodation specialists reply to all inquiries sent to sg9tradingplatform@gmail.com within 2-4 hours.</p>
+            </div>
+          </div>
+
+          <div style="font-size: 0.8rem; color: #64748B; padding-top: 20px;">
+            Homies4U • 100% Student-First Managed Living
+          </div>
+        </div>
+
+        <!-- Interactive Direct Message Form -->
+        <div class="contact-form-wrapper">
+          <h3>Send Us a Message</h3>
+          <p class="form-subtitle">Fill in your details and message will be routed directly to sg9tradingplatform@gmail.com.</p>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Your Full Name *</label>
+              <input type="text" id="contactName" class="form-control" placeholder="e.g. Rahul Sharma" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Your Email Address *</label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="e.g. rahul@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input type="text" id="contactSubject" class="form-control" placeholder="e.g. Inquiry regarding Single Studio room" />
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message / Requirements *</label>
+              <textarea id="contactMessage" class="form-control" placeholder="Please share your preferred move-in timeline, room preference, or questions..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <span>✉️</span> Submit Inquiry to Support
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="brand-logo">
+            <div class="logo-icon">H</div>
+            <span>Homies4u<span class="dot">.</span></span>
+          </a>
+          <p>
+            India's modern student & co-living housing network. Providing verified accommodations with 0% brokerage, top safety, and comfort.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#accommodations">Popular Accommodations</a></li>
+            <li><a href="#perks">Safety & Amenities</a></li>
+            <li><a href="#why-us">Why Homies4U</a></li>
+            <li><a href="#faqs">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>About & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact Support</a></li>
+            <li><a href="#about-us">Privacy Policy</a></li>
+            <li><a href="#about-us">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Support</h4>
+          <div style="background: rgba(255,255,255,0.04); padding: 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 0.8rem; color: #94A3B8; text-transform: uppercase; font-weight: 700; margin-bottom: 4px;">Official Contact Email</div>
+            <a href="mailto:sg9tradingplatform@gmail.com" style="color: #FF5A36; font-weight: 700; font-size: 0.95rem; word-break: break-all;">
+              sg9tradingplatform@gmail.com
+            </a>
+            <div style="font-size: 0.78rem; color: #64748B; margin-top: 6px;">Available 7 Days a Week</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Homies4U Platform. All rights reserved.</div>
+        <div style="display: flex; gap: 20px;">
+          <a href="mailto:sg9tradingplatform@gmail.com">Support: sg9tradingplatform@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Accommodation Details -->
+  <div class="modal-overlay" id="detailsModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeModal('detailsModal')">✕</button>
+      <div id="detailsModalContent">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Booking & Schedule Visit Form -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-card" style="max-width: 550px;">
+      <button class="modal-close-btn" onclick="closeModal('bookingModal')">✕</button>
+      <div style="padding: 32px 28px;">
+        <h3 id="bookingModalTitle" style="font-size: 1.5rem; margin-bottom: 8px;">Schedule a Free Visit</h3>
+        <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 24px;">Confirm your preferred date and we'll have a homies coordinator guide you.</p>
+
+        <form id="bookingForm">
+          <input type="hidden" id="bookAccommodationId" value="" />
+          <input type="hidden" id="bookAccommodationName" value="" />
+
+          <div class="form-group">
+            <label for="bookFullName" style="color: #0F172A;">Full Name *</label>
+            <input type="text" id="bookFullName" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1;" placeholder="e.g. Aryan Gupta" required />
+          </div>
+
+          <div class="form-group">
+            <label for="bookEmail" style="color: #0F172A;">Email Address *</label>
+            <input type="email" id="bookEmail" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1;" placeholder="e.g. aryan@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="bookPhone" style="color: #0F172A;">Phone / WhatsApp Number *</label>
+            <input type="tel" id="bookPhone" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1;" placeholder="e.g. +91 98765 43210" required />
+          </div>
+
+          <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+            <div>
+              <label for="bookDate" style="color: #0F172A;">Check-in / Visit Date *</label>
+              <input type="date" id="bookDate" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1;" required />
+            </div>
+            <div>
+              <label for="bookSharing" style="color: #0F172A;">Sharing Preference</label>
+              <select id="bookSharing" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1;">
+                <option value="Private Single">Private Single</option>
+                <option value="Twin Sharing">Twin Sharing</option>
+                <option value="Triple Sharing">Triple Sharing</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="bookNotes" style="color: #0F172A;">Special Requests / College Name</label>
+            <textarea id="bookNotes" class="form-control" style="background: #F8FAFC; color: #0F172A; border-color: #CBD5E1; min-height: 80px;" placeholder="Optional details..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;">
+            Confirm & Schedule Visit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Admin Leads & Inquiries Viewer -->
+  <div class="modal-overlay" id="adminModal">
+    <div class="modal-card" style="max-width: 750px;">
+      <button class="modal-close-btn" onclick="closeModal('adminModal')">✕</button>
+      <div id="adminModalContent">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/js/app.js"></script>
+</body>
+</html>
